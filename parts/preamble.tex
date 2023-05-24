@@ -1,0 +1,33 @@
+\usepackage[UTF8, cap, fntef]{ctex}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage[export]{adjustbox}
+\usepackage{changepage}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{geometry}
+\usepackage{makecell}
+\usepackage{frame}
+\usepackage{ltablex}
+\usepackage{lipsum}
+
+\graphicspath{{figures/}}
+\bibliographystyle{apalike}
+\CTEXoptions[bibname={\normalsize \textnormal{参考资料和相关网站}}]
+
+\geometry{left=1cm, right=1cm, top=1cm, bottom=1cm}
+
+
+\newcommand{\labname}{Nachos文件系统调用与shell}
+\newcommand{\releasetime}{2023年5月23日}
+\newcommand{\submittime}{\today}
+\newcommand{\authorname}{周俊宇 2021141530091}
+
+
+\newcommand{\inlinetable}[1]{\multicolumn{1}{@{}m{165mm}!{\vrule width 1pt}}{#1}}
+
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\zihao{-3}\bfseries\centering\arraybackslash}b{#1}}
+
+\newenvironment{parentheses}{\renewcommand{\labelenumi}{\theenumi)} \begin{enumerate}}{\end{enumerate}}
+\endinput
